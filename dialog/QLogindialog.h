@@ -5,9 +5,11 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QString>
+#include <QDebug>
 
 class QLoginDialog : public QDialog
 {
+    Q_OBJECT
 private:
     QLabel UserLabel;
     QLabel PwdLabel;
@@ -19,14 +21,14 @@ private:
     QPushButton CancelButton;
 
     QString m_name;
-    Qstring m_pwd;
+    QString m_pwd;
 
 private slots:
     void LoginButtonClicked();
     void CancelButtonClicked();
 
 public:
-    QLoginDialog();
+    QLoginDialog(QWidget *parent = 0);
     ~QLoginDialog();
 
     QString getName();
