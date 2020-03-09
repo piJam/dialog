@@ -1,5 +1,5 @@
-#ifndef WDIGET_H
-#define WDIGET_H
+#ifndef _WDIGET_H_
+#define _WDIGET_H_
 
 #include <QMainWindow>
 
