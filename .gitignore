@@ -38,3 +38,4 @@ jamLib/jamLib.pro.user
 jamLib/jamLib.pro.user.*
 /build-*/
 *.user.*
+Dialog.pro.user*
